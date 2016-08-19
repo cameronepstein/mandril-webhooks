@@ -1,24 +1,16 @@
-# README
+# Web Hook Configuration
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project involves creating a web application in Ruby which can receive and process web hooks from [Mandrill](https://mandrillapp.com/login/?referrer=%2F).
 
-Things you may want to cover:
+It is important that the application:
 
-* Ruby version
+- can receive web hooks from Mandrill
 
-* System dependencies
+- processes the web hook data and stores it into a suitable data store
+- displays the following statistics:
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+    - total number of emails sent
+    - total number of emails opened
+    - total number of clicks
+    - open rate per email type
+    - click rate per email type
