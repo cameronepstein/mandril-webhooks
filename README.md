@@ -4,13 +4,13 @@ This project involves creating a web application in Ruby which can receive and p
 
 It is important that the application:
 
-- can receive web hooks from Mandrill
+- Can receive web hooks from Mandrill
 
-- processes the web hook data and stores it into a suitable data store
-- displays the following statistics:
+- Processes the web hook data and stores it into a suitable data store
+- Displays the following statistics:
 
-    - total number of emails sent
-    - total number of emails opened
-    - total number of clicks
-    - open rate per email type
-    - click rate per email type
+    - Total number of emails sent
+    - Total number of emails opened
+    - Total number of clicks
+    - Open rate per email type
+    - Click rate per email type
