@@ -14,3 +14,5 @@ It is important that the application:
     - Total number of clicks
     - Open rate per email type
     - Click rate per email type
+
+Using the most simplistic route possible, this app will fulfil the necessary requirements through use of Rails, Go and a little html.
